@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+<body>
+    <h1>Formularz</h1>
+    <form action="#" method="POST">
+        
+        <label for="text">Tekstowe:</label>
+        <input type="text" id="text" name="text" required><br><br>
+
+        
+        <label for="mail">e-mail:</label>
+        <input type="email" id="mail" name="mail" required><br><br>
+
+        <label>Radio:</label>
+        <input type="radio" id="radio_ok" name="radio" value="ok">
+        <label for="radio_ok">Mieszczyna</label>
+        <input type="radio" id="radio_nw" name="radio" value="nw">
+        <label for="radio_nw">Kobieta</label><br><br>
+
+        <label>Checkbox:</label><br>
+        <input type="checkbox" id="Czerwony" name="checkbox[]" value="Czerwony">
+        <label for="Czerwony">Czewyrwony</label><br>
+        <input type="checkbox" id="Zelony" name="checkbox[]" value="Zelony">
+        <label for="Zelony">Zelony</label><br>
+
+        <select id="Wybor">
+            <option>Gry</option>
+            <option>Śiatkówka</option>
+            <option>Koszykówka</option>
+        <option>Piłka nożna</option>
+        <option>Piłka reczna</option>
+        </select>
+
+        <input type="submit"value=Wyślij>
+        <input type="reset"value=Reset>
+        </form> 
+    </body>
+    </html>
+        
